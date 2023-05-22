@@ -1,0 +1,187 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: green;
+    font-size: 16px;
+}
+
+header {
+    background-image: linear-gradient(black, green);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+   margin-right: auto;
+}
+
+header h1 {
+    margin-right: auto;
+    color: whitesmoke;
+    font-size: 3rem;
+
+}
+
+.navlink {
+    margin-right: 50px;
+    border: 1px solid whitesmoke;
+    padding: 5px;
+    list-style: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+} 
+
+.navlink a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 5px
+}
+
+.info h1 {
+    font-size: 3rem;
+    color: yellow;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1rem;
+}
+
+.info img {
+    width: 40%;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+.upcoming {
+    display: flex;
+    align-content: flex-start;
+    align-items: center;
+    justify-content: center;
+}
+#gameday {
+    width: 40%;
+    height: 400px;
+}
+
+.fixtures {
+    list-style: none;
+    text-align: center;
+    
+}
+
+.match {
+    padding: 20px;
+}
+
+#personnel {
+    text-align: center;
+    font-size: 35px;
+}
+
+.people {
+    display: flex;    
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    justify-items: center;
+    align-content: center;
+
+}
+
+
+.about ul li {
+    list-style-type: none;
+}
+
+.about ul li img {
+    height: 400px;
+    width: 350px;
+}
+
+
+
+figcaption {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.person {
+    padding: 20px;
+}
+
+
+footer {
+    background-image: linear-gradient(green, black);
+    display: flex;
+    justify-content: center;
+
+}
+
+.links {
+    margin-right: auto;
+   
+}
+
+.footlink {
+    border: 1px solid whitesmoke;
+    padding: 5px;
+    list-style: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.footlink a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+footer img{ 
+    margin-right: 525px;
+}
+
+@media screen  and (max-width: 677px) {
+
+    #logo {
+        display: none;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    header h1 {
+        text-align: center;
+    }
+
+    .info p {
+        text-align: center;
+
+    }
+
+    #gameday {
+        display: none;
+    }
+
+    #footimg {
+        display: none;
+    }
+
+    .links {
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+}
